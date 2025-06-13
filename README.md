@@ -16,6 +16,69 @@ A practical reference guide covering typography, color, spacing, layout, buttons
 
 > 🧠 **Tip**: Stick to 2–3 font styles max (e.g., Regular, Medium, Bold)
 
+# 📐 Typography Levels of Text System
+
+A consistent and scalable typography guide for responsive Web and Mobile UI/UX design.
+
+---
+
+## 📊 Typography Scale
+
+| Level       | Purpose                             | Web Size   | Mobile Size | Weight       | Line Height | Letter Spacing | Text Transform   |
+|-------------|-------------------------------------|------------|-------------|--------------|--------------|----------------|------------------|
+| **Display** | Hero/banner title                   | 48–64px    | 32–48px     | Bold (700)   | 1.1–1.2      | -0.5px to 0px  | None             |
+| **H1**      | Main page title                     | 32–48px    | 24–32px     | Bold (700)   | 1.2–1.3      | -0.2px         | None or Title Case |
+| **H2**      | Section title                       | 24–32px    | 20–28px     | Semi-bold (600) | 1.3–1.4   | -0.2px         | None or Title Case |
+| **H3**      | Subsection or card heading          | 18–24px    | 16–20px     | Medium (500) | 1.4          | 0px            | None             |
+| **Body**    | Paragraph or content text           | 16–18px    | 14–16px     | Regular (400)| 1.5–1.6      | 0–0.2px        | Sentence Case    |
+| **Caption** | Labels, tooltips, metadata          | 12–14px    | 12–14px     | Light (300–400)| 1.4–1.6    | 0.2–0.5px      | UPPERCASE or Sentence Case |
+| **Button**  | Button/CTA text                     | 14–16px    | 14–16px     | Medium/Bold  | 1.2–1.4      | 0.5px (caps)   | UPPERCASE        |
+| **Overline**| Small label above content sections  | 10–12px    | 10–12px     | Medium       | 1.2–1.4      | 0.5–1px        | UPPERCASE        |
+
+---
+
+## 🧩 Real UI Examples
+
+### 📱 Mobile App: E-Commerce
+
+- **Display**: `"Shop the New Summer Collection"` (Home banner)
+- **H1**: `"Your Orders"` (Main section title)
+- **H2**: `"Top Categories"` (Subsection)
+- **H3**: `"Men's Footwear"` (Card title)
+- **Body**: `"Free shipping on orders above ₹999"` (Paragraph)
+- **Caption**: `"Last order: 3 days ago"` (Meta label)
+- **Button**: `"Add to Cart"` (CTA)
+- **Overline**: `"NEW"` (above card title)
+
+### 🖥️ Web Dashboard: Admin Panel
+
+- **Display**: `"Welcome Back, Aisha!"` (Hero greeting)
+- **H1**: `"Admin Dashboard"` (Page title)
+- **H2**: `"User Activity"` (Section title)
+- **H3**: `"Active Users (Last 7 Days)"` (Subheading)
+- **Body**: `"Here's what’s been happening recently."`
+- **Caption**: `"Synced at 3:45 PM"` (Last updated)
+- **Button**: `"Download Report"` (CTA)
+- **Overline**: `"REPORTS"` (Above dashboard cards)
+
+---
+
+## ✅ Design Tips
+
+- Use a modular scale (e.g., 1.25×: `16 → 20 → 25 → 32 → 40 → 48 → 64`)
+- Apply `rem` or `clamp()` units in CSS for responsiveness
+- Maintain contrast ratios (min. 4.5:1 for body text)
+- Set up Figma styles or design tokens for each text level
+
+---
+
+## 🔧 Tools
+
+- [Type Scale](https://type-scale.com)
+- [Google Fonts](https://fonts.google.com)
+- [Font Pair](https://fontpair.co)
+
+
 ---
 
 ## 2. 🎨 Color System
