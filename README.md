@@ -22,7 +22,7 @@ A consistent and scalable typography guide for responsive Web and Mobile UI/UX d
 
 ---
 
-## 📊 Typography Scale
+### 📊 Typography Scale
 
 | Level       | Purpose                             | Web Size   | Mobile Size | Weight       | Line Height | Letter Spacing | Text Transform   |
 |-------------|-------------------------------------|------------|-------------|--------------|--------------|----------------|------------------|
