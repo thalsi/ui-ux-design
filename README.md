@@ -201,3 +201,74 @@ This cheat sheet is open for personal and professional use. Feel free to modify 
 
 ---
 
+# 📐 Responsive Typography Scale (Web & Mobile)
+
+A modern and practical typography system for responsive UI/UX design. Optimized for Figma, web, and mobile apps. Includes font sizes, line height, letter spacing, font weight, and use case guidance.
+
+---
+
+## 🖥️ Web Typography Scale
+
+| Level     | Font Size | Line Height | Letter Spacing | Font Weight       | Use Case             | Description                                                                 |
+|-----------|-----------|-------------|----------------|--------------------|-----------------------|-----------------------------------------------------------------------------|
+| Display 1 | 80px      | 88px        | -0.5px         | 800 (Extra Bold)   | Hero Banner Title     | Main headline on landing pages or large hero banners                        |
+| Display 2 | 64px      | 72px        | -0.5px         | 700 (Bold)         | Section Intro Title   | Large section headers or pre-body titles                                   |
+| H1        | 48px      | 56px        | -0.25px        | 700 (Bold)         | Page Title            | Primary page heading, usually once per page                                |
+| H2        | 36px      | 44px        | -0.25px        | 600 (SemiBold)     | Section Title         | Headings for major sections on a page                                      |
+| H3        | 28px      | 36px        | 0px            | 600 (SemiBold)     | Subsection Title      | Headings inside cards, panels, or subsections                              |
+| H4        | 22px      | 32px        | 0px            | 500 (Medium)       | Subtitle / Group      | Group or block labels like “User Details”                                  |
+| H5        | 18px      | 28px        | 0px            | 500 (Medium)       | Minor Headings        | Labels in sidebars, forms, or compact UIs                                  |
+| H6        | 16px      | 24px        | 0px            | 500 (Medium)       | Small Headings        | Inline headings, tag groups, metadata blocks                               |
+| Body      | 16px      | 28px        | 0px            | 400 (Regular)      | Paragraph Text        | General readable text blocks                                               |
+| Small     | 14px      | 22px        | 0px            | 400 (Regular)      | Help / Hints          | Form help text, inline explanations, tooltips                              |
+| Caption   | 12px      | 20px        | +0.2px         | 400 (Regular)      | Metadata              | Captions, timestamps, category tags                                        |
+| Button    | 16px      | 20px        | +0.5px         | 600 (SemiBold)     | CTA Buttons           | Button labels, typically UPPERCASE for clarity                             |
+
+---
+
+## 📱 Mobile Typography Scale
+
+| Level     | Font Size | Line Height | Letter Spacing | Font Weight       | Use Case             | Description                                                                 |
+|-----------|-----------|-------------|----------------|--------------------|-----------------------|-----------------------------------------------------------------------------|
+| Display 1 | 56px      | 64px        | -0.5px         | 800 (Extra Bold)   | Hero Banner Title     | Large mobile titles or splash screen headlines                             |
+| Display 2 | 48px      | 56px        | -0.25px        | 700 (Bold)         | Section Header        | Main screen headers, visual sections                                       |
+| H1        | 36px      | 44px        | -0.25px        | 700 (Bold)         | Page Title            | Major screen title (top of screen)                                         |
+| H2        | 28px      | 36px        | 0px            | 600 (SemiBold)     | Section Title         | Subheaders, page section markers                                           |
+| H3        | 22px      | 32px        | 0px            | 600 (SemiBold)     | Card Titles           | Card headers, FAQ titles, item blocks                                      |
+| H4        | 18px      | 28px        | 0px            | 500 (Medium)       | Subtitles             | Minor headers for groups or settings                                       |
+| H5        | 16px      | 24px        | 0px            | 500 (Medium)       | Form Titles           | Labels for inputs, dropdowns                                               |
+| H6        | 14px      | 22px        | 0px            | 500 (Medium)       | Inline Headings       | Meta blocks, tags, field titles                                            |
+| Body      | 14px      | 24px        | 0px            | 400 (Regular)      | Body Text             | Regular paragraph content                                                  |
+| Small     | 12px      | 20px        | 0px            | 400 (Regular)      | Help Text             | Help and validation text for inputs                                        |
+| Caption   | 12px      | 18px        | +0.2px         | 400 (Regular)      | Notes / Timestamps    | Small caption text, dates, time, info                                      |
+| Button    | 14px      | 20px        | +0.5px         | 600 (SemiBold)     | Buttons               | Tap targets, short actions                                                 |
+
+---
+
+## ✅ Guidelines for Designers (Figma)
+
+- Set all sizes in **pixels** (px)
+- Use consistent font weights like 400, 500, 600, 700
+- Apply proper **line height** for readability
+- Use **letter spacing** only for small text or uppercase
+- Name styles as: `Web/H1/48px`, `Mobile/Body/14px`, etc.
+
+---
+
+## 🔠 Popular Font Pairings
+
+- Inter (Modern & UI-friendly)
+- General Sans (Neutral & elegant)
+- Roboto (Android default)
+- SF Pro (iOS default)
+
+---
+
+## 💡 Tip
+
+Limit to 3–4 heading levels per screen for clean design. Use body + caption + button text to keep UI light and readable.
+
+---
+
+
+
