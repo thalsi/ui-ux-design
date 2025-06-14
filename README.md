@@ -270,5 +270,56 @@ Limit to 3–4 heading levels per screen for clean design. Use body + caption + 
 
 ---
 
+# 🧱 Minimal Responsive Typography Scale (Web & Mobile)
+
+A clean, simple, and scalable typography system for modern web and mobile UI/UX design. Optimized for Figma, Tailwind, or any design system with only the most essential text styles.
+
+---
+
+## 🖥️ Web + 📱 Mobile Typography Table
+
+| Level       | Web Font Size | Mobile Font Size | Line Height (W/M)  | Font Weight      | Use Case            | Notes                                |
+|-------------|----------------|------------------|---------------------|------------------|----------------------|---------------------------------------|
+| **H1**      | 48px           | 36px             | 56px / 44px         | 700 (Bold)       | Page Title           | Main heading, usually once per page  |
+| **H2**      | 36px           | 28px             | 44px / 36px         | 600 (SemiBold)   | Section Title        | Major section or feature header      |
+| **H3**      | 24px           | 20px             | 32px / 28px         | 600 (SemiBold)   | Card/Group Title     | Subsection headers inside blocks     |
+| **Body**    | 16px           | 14px             | 28px / 24px         | 400 (Regular)    | Paragraph Text        | General content, readable everywhere |
+| **Caption** | 12–14px        | 12px             | 20px                | 400 (Regular)    | Notes, Meta Text      | Use for dates, tags, tooltips        |
+| **Button**  | 16px           | 14px             | 20px                | 600 (SemiBold)   | Action Buttons        | Consistent size, often UPPERCASE     |
+
+---
+
+## ✅ Why This System?
+
+- 🧩 Only 3–4 heading levels → Simple & effective
+- 📱 Adjusted for mobile readability
+- 🎯 Easy to implement in design & code
+- 🎨 Matches most modern fonts like **Inter**, **General Sans**, **Roboto**, or **SF Pro**
+
+---
+
+## 🔧 Figma Setup Tips
+
+- Set font sizes in **pixels (px)**.
+- Keep consistent **line heights** for rhythm.
+- Create text styles like:
+  - `Web/H1/48`
+  - `Mobile/Body/14`
+- Use **Auto Layout + Text Tokens** if using a design system.
+
+---
+
+## 💻 Dev-Ready Extensions
+
+Want more?
+
+- Tailwind-compatible class names
+- Figma `.fig` styles
+- JSON/SASS design tokens
+- Responsive CSS snippets
+
+Let me know, I’ll generate it! 😊
+
+---
 
 
