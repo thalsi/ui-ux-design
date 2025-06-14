@@ -173,7 +173,7 @@ Need tokens?
 
 Let me know and I’ll generate it for you!
 
-```
+---
 ## 2. 🎨 Color System
 
 | Type            | Suggested Values                      | Notes                                   |
@@ -552,7 +552,7 @@ All scales above are **responsive**.
 Use **Figma variants**, **media queries**, or `clamp()` in CSS for smooth typography across breakpoints.
 
 Example (CSS):
-```
+---
 
 | System     | Best For                | Platform     |
 | ---------- | ----------------------- | ------------ |
@@ -565,7 +565,7 @@ Example (CSS):
 | Polaris    | Shopify admin tools     | Web + Mobile |
 | SLDS       | Salesforce enterprise   | Web + Mobile |
 
-```
+---
 
 
 # 🎨 Responsive Color System Guide (Web & Mobile)
@@ -811,5 +811,5 @@ A practical and consistent UI system to ensure a smooth design experience across
 
 Let me know and I’ll generate it for you!
 
-```
+---
 
