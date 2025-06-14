@@ -990,3 +990,58 @@ Consistent spacing scale using a 4px base grid:
 - 🧙‍♀️ Clean Visual Hierarchy
 
 > This system is ideal for developers, designers, and creatives building a clean, responsive portfolio.
+---
+
+📁 Design System
+│
+├── 🧱 Foundations
+│   ├── Colors
+│   ├── Typography
+│   ├── Spacing Scale
+│   ├── Grid & Layout
+│   └── Elevation (Shadow, Z-index)
+│
+├── 🔤 Text Styles
+│   ├── Display (Web & Mobile)
+│   ├── Headings (H1–H6)
+│   ├── Body, Caption, Small
+│   ├── Button Text
+│   └── Labels / Tags
+│
+├── 🎨 Color Styles
+│   ├── Primary / Secondary
+│   ├── Text Colors
+│   ├── Background / Surface
+│   ├── State (Success, Error, Warning)
+│   └── Dark Mode Variants
+│
+├── 📐 Layout Grid
+│   ├── Desktop
+│   ├── Tablet
+│   └── Mobile
+│
+├── 📦 Components
+│   ├── Buttons (Primary, Secondary, Icon)
+│   ├── Forms (Inputs, Selects, Checkbox, Radio)
+│   ├── Cards (Project Card, Blog Card)
+│   ├── Modals
+│   ├── Tags / Chips
+│   └── Nav & Footer
+│
+├── 🧩 UI Elements
+│   ├── Icons
+│   ├── Avatars
+│   ├── Tooltips
+│   └── Loaders / Progress
+│
+├── 📄 Examples / Templates
+│   ├── Hero Section
+│   ├── Projects Grid
+│   ├── Contact Section
+│   └── Blog Layout
+│
+└── 📝 Notes
+    ├── Design Tokens Guide
+    ├── Naming Convention
+    └── Accessibility Guidelines
+
