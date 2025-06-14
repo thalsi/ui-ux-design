@@ -80,7 +80,100 @@ A consistent and scalable typography guide for responsive Web and Mobile UI/UX d
 
 
 ---
+# 🎨 Responsive Color System (Web & Mobile)
 
+A modern, accessible, and scalable color system designed for responsive UI/UX across Web and Mobile. Supports **light** and **dark** themes, and aligns perfectly with common typography scales.
+
+---
+
+## ✅ 1. Core Brand Colors
+
+| Name      | Light HEX | Dark HEX  | Use Case                          |
+|-----------|-----------|-----------|-----------------------------------|
+| Primary   | #0057FF   | #3B82F6   | Main actions: buttons, links      |
+| Secondary | #FF6B00   | #F97316   | Accent areas, secondary CTAs      |
+| Accent    | #FFD500   | #FACC15   | Highlights, pricing, notifications|
+| Success   | #22C55E   | #4ADE80   | Success messages, confirmations   |
+| Warning   | #F59E0B   | #FBBF24   | Warnings, caution states          |
+| Error     | #EF4444   | #F87171   | Errors, validation messages       |
+
+---
+
+## 🧱 2. Grayscale / Neutral Colors
+
+| Name      | Light HEX | Dark HEX  | Use Case                          |
+|-----------|-----------|-----------|-----------------------------------|
+| Black     | #000000   | #000000   | Strong text, shadows               |
+| Gray 900  | #111827   | #F9FAFB   | Primary titles, headers            |
+| Gray 700  | #374151   | #E5E7EB   | Section headings, active states    |
+| Gray 500  | #6B7280   | #9CA3AF   | Body text, general UI text         |
+| Gray 300  | #D1D5DB   | #4B5563   | Borders, input outlines            |
+| Gray 100  | #F3F4F6   | #1F2937   | Backgrounds, containers            |
+| White     | #FFFFFF   | #111827   | Surfaces, page backgrounds         |
+
+---
+
+## 🧩 3. Backgrounds & Surfaces
+
+| Name        | Light HEX | Dark HEX  | Use Case                         |
+|-------------|-----------|-----------|----------------------------------|
+| Background  | #FFFFFF   | #0F172A   | App background                   |
+| Surface     | #F9FAFB   | #1E293B   | Cards, modals, inner sections    |
+| Surface Alt | #F3F4F6   | #334155   | Side panels, nested containers   |
+| Divider     | #E5E7EB   | #475569   | Borders, section separators      |
+
+---
+
+## 📝 4. Text Colors
+
+| Name           | Light HEX | Dark HEX  | Use Case                        |
+|----------------|-----------|-----------|---------------------------------|
+| Text Primary   | #111827   | #F9FAFB   | Titles, headings (H1–H3)        |
+| Text Secondary | #374151   | #D1D5DB   | Body, subtitles (H4–H6)         |
+| Text Muted     | #6B7280   | #9CA3AF   | Captions, help text, metadata   |
+| Text Inverted  | #FFFFFF   | #000000   | Button text on dark backgrounds |
+
+---
+
+## 💡 Example Usage (Paired with Typography)
+
+| Component   | Text Style | Color Token         | Example                          |
+|-------------|------------|---------------------|----------------------------------|
+| Page Title  | H1         | Text Primary        | "Welcome to Dashboard"           |
+| Subtitle    | H4         | Text Secondary      | "Here’s your weekly report"      |
+| Description | Body       | Text Muted          | "You can manage your account..." |
+| CTA Button  | Button     | Primary + Inverted  | "Get Started"                    |
+| Card Title  | H3         | Text Primary        | "Total Revenue"                  |
+| Error Text  | Small      | Error               | "Please enter a valid email."    |
+
+---
+
+## 📌 Best Practices
+
+- ✅ Use consistent tokens in Figma/CSS.
+- ✅ Maintain contrast ratio of **4.5:1** for accessibility (WCAG AA).
+- ✅ Use `rgba()` or `opacity` for subtle text layers.
+- ✅ Set up theme-switching using CSS variables or Figma modes.
+
+---
+
+## 🔗 Recommended Pairing
+
+Pair this color system with your [Responsive Typography Scale](#) for perfect spacing, alignment, and readability on both mobile and web.
+
+---
+
+## 🛠️ Optional Token Export
+
+Need tokens?
+
+- `colors.css` for web projects
+- `tailwind.config.js` for Tailwind setup
+- `tokens.json` for Figma plugin or code
+
+Let me know and I’ll generate it for you!
+
+```
 ## 2. 🎨 Color System
 
 | Type            | Suggested Values                      | Notes                                   |
