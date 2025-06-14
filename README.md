@@ -322,4 +322,156 @@ Let me know, I’ll generate it! 😊
 
 ---
 
+# 📐 Responsive Typography Scale Guide (Web & Mobile)
+
+This guide compares **8 popular typography scales** used in real-world UI/UX design systems — optimized for both **web and mobile platforms**. Use these as a foundation for your Figma design tokens, Tailwind config, or CSS system.
+
+---
+
+## ✅ 1. Minimal Product UI Scale
+
+**Best For:** SaaS apps, dashboards, startup UIs
+
+| Style   | Web Size | Mobile Size | Line Height | Weight | Use Case       |
+|---------|----------|-------------|-------------|--------|----------------|
+| H1      | 48px     | 36px        | 56 / 44px   | 700    | Page title     |
+| H2      | 36px     | 28px        | 44 / 36px   | 600    | Section header |
+| H3      | 24px     | 20px        | 32 / 28px   | 600    | Card title     |
+| Body    | 16px     | 14px        | 28 / 24px   | 400    | Paragraph      |
+| Caption | 12px     | 12px        | 20px        | 400    | Meta/Notes     |
+| Button  | 16px     | 14px        | 20px        | 600    | CTA/Button     |
+
+---
+
+## 🧱 2. Material Design 3 (Google)
+
+**Best For:** Android, Google apps, Material UI
+
+| Style           | Web Size | Mobile Size | Weight | Use Case           |
+|------------------|----------|-------------|--------|--------------------|
+| Display Large    | 57px     | 45px        | 400    | Hero/Banner        |
+| Headline Large   | 32px     | 28px        | 400    | Section Title      |
+| Title Medium     | 16px     | 16px        | 500    | Card/Form Title    |
+| Body Large       | 16px     | 14px        | 400    | Content            |
+| Label Small      | 11px     | 11px        | 500    | Labels/Chips       |
+| Button           | 14px     | 14px        | 500    | Buttons/CTAs       |
+
+---
+
+## 🍎 3. Apple Human Interface (HIG)
+
+**Best For:** iOS/macOS apps and mobile-first UX
+
+| Style        | Size (pt) | Weight | Use Case       |
+|--------------|-----------|--------|----------------|
+| Large Title  | 34pt      | Bold   | Page Top Title |
+| Title 1      | 28pt      | Bold   | Section Title  |
+| Title 2      | 22pt      | Semi   | Subheader      |
+| Body         | 17pt      | Regular| Body Text      |
+| Footnote     | 13pt      | Regular| Small Notes    |
+| Caption      | 12pt      | Regular| Meta Info      |
+
+---
+
+## 🎯 4. Tailwind CSS Typography
+
+**Best For:** Utility-first design, web projects
+
+| Class       | Font Size |
+|-------------|-----------|
+| text-xs     | 12px      |
+| text-sm     | 14px      |
+| text-base   | 16px      |
+| text-lg     | 18px      |
+| text-xl     | 20px      |
+| text-2xl    | 24px      |
+| text-3xl    | 30px      |
+| text-4xl    | 36px      |
+| text-5xl    | 48px      |
+| text-6xl+   | 60–96px   |
+
+Use responsive variants: `sm:text-xl`, `lg:text-3xl`, etc.
+
+---
+
+## 🚀 5. Atlassian Design System
+
+**Best For:** B2B tools like Jira, Confluence, Trello
+
+| Style       | Size     | Weight | Use Case      |
+|-------------|----------|--------|---------------|
+| Heading XL  | 30px     | 600    | Page Title    |
+| Heading LG  | 24px     | 600    | Section Header|
+| Heading SM  | 18px     | 500    | Card Header   |
+| Body        | 14–16px  | 400    | Content Text  |
+| Caption     | 12px     | 400    | Notes/Labels  |
+
+---
+
+## 🏢 6. IBM Carbon Design System
+
+**Best For:** Large-scale enterprise UIs
+
+**Expressive (marketing)**  
+- Display: 32–72px  
+- Headline: 32px  
+- Subtitle: 20px  
+- Body: 16px  
+- Label: 14px  
+
+**Productive (app UI)**  
+- H1–H6: 20–48px  
+- Body/Small: 14–16px  
+
+---
+
+## 🛒 7. Shopify Polaris
+
+**Best For:** Admin panels, eCommerce dashboards
+
+| Style      | Size   | Weight | Use Case       |
+|------------|--------|--------|----------------|
+| Display    | 40px   | 500    | Hero Titles    |
+| Heading    | 24px   | 500    | Section Titles |
+| Subheading | 20px   | 500    | Card Headings  |
+| Body       | 16px   | 400    | Text Content   |
+| Caption    | 13px   | 400    | Meta Text      |
+
+---
+
+## ☁️ 8. Salesforce Lightning Design System (SLDS)
+
+**Best For:** Enterprise platforms, dense UIs
+
+| Style       | Size   | Weight | Use Case        |
+|-------------|--------|--------|-----------------|
+| Display     | 44px   | 700    | Page Hero       |
+| Heading     | 24px   | 600    | Section Header  |
+| Subheading  | 20px   | 500    | Card/Subsection |
+| Body        | 16px   | 400    | Content         |
+| Label       | 12px   | 400    | UI Labels       |
+
+---
+
+## 📱 Mobile & Web Usage
+
+All scales above are **responsive**.  
+Use **Figma variants**, **media queries**, or `clamp()` in CSS for smooth typography across breakpoints.
+
+Example (CSS):
+```
+
+| System     | Best For                | Platform     |
+| ---------- | ----------------------- | ------------ |
+| Minimal UI | Web apps, startups      | Web + Mobile |
+| Material   | Android, PWA            | Web + Mobile |
+| Apple HIG  | iOS/macOS apps          | Mobile + Web |
+| Tailwind   | Utility-first dev       | Web          |
+| Atlassian  | B2B productivity        | Web + Mobile |
+| Carbon     | Enterprise content & UI | Web + Mobile |
+| Polaris    | Shopify admin tools     | Web + Mobile |
+| SLDS       | Salesforce enterprise   | Web + Mobile |
+
+```
+
 
