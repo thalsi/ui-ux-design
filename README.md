@@ -288,12 +288,6 @@ Let me know and I’ll generate it for you!
 
 ---
 
-## ✅ License
-
-This cheat sheet is open for personal and professional use. Feel free to modify or extend it to match your design system.
-
----
-
 # 📐 Responsive Typography Scale (Web & Mobile)
 
 A modern and practical typography system for responsive UI/UX design. Optimized for Figma, web, and mobile apps. Includes font sizes, line height, letter spacing, font weight, and use case guidance.
