@@ -1067,3 +1067,52 @@ This guide helps structure your Figma file into well-organized sections for a sc
 
 > 🧠 This organization helps maintain clarity, scalability, and developer handoff in any Figma-based UI/UX project.
 
+# 🎨 Color Categories in Design
+
+Organizing your color palette into categories helps ensure visual consistency, scalability, and accessibility across your designs.
+
+---
+
+## ✅ Essential Categories (Use in All Projects)
+
+| Category   | Example Colors            | Main Use                                  |
+|------------|----------------------------|-------------------------------------------|
+| Neutral    | Grey, White, Beige, Black  | Backgrounds, text, layout, containers     |
+| Primary    | Red, Blue, Yellow (or RGB) | Core branding, main buttons, highlights   |
+| Accent     | Teal, Gold, Magenta        | Call-to-action buttons, links, badges     |
+| Brand      | Custom to company          | Logo, header, navigation, brand identity  |
+| Grayscale  | Black → Grey → White       | Wireframes, disabled states, structure    |
+
+---
+
+## 🧪 Optional but Recommended for UI/UX
+
+| Category      | Example Colors                   | Use Cases                                        |
+|---------------|----------------------------------|--------------------------------------------------|
+| Secondary     | Green, Orange, Purple            | Tabs, tags, secondary buttons                    |
+| Semantic      | Red (Error), Green (Success), etc| Form validation, notifications, status messages |
+| Light/Dark    | Light: #ffffff, Dark: #121212    | Themes for accessibility and user comfort       |
+| Tertiary      | Red-Orange, Yellow-Green, etc.   | Advanced visuals, data charts, illustrations     |
+
+---
+
+## 🧩 When to Use Each Category
+
+| Project Type               | Recommended Categories                               |
+|----------------------------|------------------------------------------------------|
+| Simple Website/App         | Neutral, Primary, Accent, Brand                      |
+| Form-heavy UI              | Add Semantic                                        |
+| Dashboard/Admin Panel      | Add Grayscale, Semantic, Secondary                  |
+| Large Design System        | All categories, including Tertiary                  |
+
+---
+
+## 🛠️ Tips
+
+- ✅ Use **Neutral + Primary + Accent** for any clean UI.
+- 🔄 Add **Semantic + Secondary** if your UI has status feedback.
+- 🚫 Avoid too many colors — 6–8 well-defined tokens is ideal.
+- 🌗 Support **Light/Dark Mode** if accessibility or modern UX is needed.
+
+---
+
