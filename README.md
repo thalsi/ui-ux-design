@@ -4,6 +4,19 @@ A practical reference guide covering typography, color, spacing, layout, buttons
 
 ---
 
+## 📚 What's Inside
+
+🎨 Color Systems — Neutral, semantic, brand, light/dark mode palettes
+🔤 Typography Guide — Font scales, line-height, responsive text
+📐 Layout & Spacing — Grids, spacing units, alignment principles
+🧩 Design Patterns — Buttons, cards, modals, forms, inputs
+📱 Responsive UI — Web and mobile layout strategies
+🧠 UX Principles — Accessibility, feedback, affordance, hierarchy
+🛠️ Tools & Assets — Figma templates, icons, color palettes, free assets
+📁 Component Library (in progress) — Atomic design, variants, states
+
+---
+
 ## 1. 🔤 Typography
 
 | Element       | Web                  | Mobile                | Notes                                |
