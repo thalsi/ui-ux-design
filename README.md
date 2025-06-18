@@ -1119,13 +1119,13 @@ Organizing your color palette into categories helps ensure visual consistency, s
 ## 🛠️ Today leran
 
 1. Design Color 
-[x] Day-1
-[x] Day-2
-[x] Day-3
-[x] Day-4
-[x] Day-5
+- [x] Day-1
+- [x] Day-2
+- [x] Day-3
+- [x] Day-4
+- [x] Day-5
 
-1. Design Typogrphy 
-[x] Day-1
-[x] Day-2
+2. Design Typogrphy 
+- [x] Day-1
+- [x] Day-2
 
