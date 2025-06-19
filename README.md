@@ -6,14 +6,14 @@ A practical reference guide covering typography, color, spacing, layout, buttons
 
 ## 📚 What's Inside
 
-🎨 Color Systems — Neutral, semantic, brand, light/dark mode palettes
-🔤 Typography Guide — Font scales, line-height, responsive text
-📐 Layout & Spacing — Grids, spacing units, alignment principles
-🧩 Design Patterns — Buttons, cards, modals, forms, inputs
-📱 Responsive UI — Web and mobile layout strategies
-🧠 UX Principles — Accessibility, feedback, affordance, hierarchy
-🛠️ Tools & Assets — Figma templates, icons, color palettes, free assets
-📁 Component Library (in progress) — Atomic design, variants, states
+- 🎨 Color Systems — Neutral, semantic, brand, light/dark mode palettes
+- 🔤 Typography Guide — Font scales, line-height, responsive text
+- 📐 Layout & Spacing — Grids, spacing units, alignment principles
+- 🧩 Design Patterns — Buttons, cards, modals, forms, inputs
+- 📱 Responsive UI — Web and mobile layout strategies
+- 🧠 UX Principles — Accessibility, feedback, affordance, hierarchy
+- 🛠️ Tools & Assets — Figma templates, icons, color palettes, free assets
+- 📁 Component Library (in progress) — Atomic design, variants, states
 
 ---
 
@@ -1126,6 +1126,28 @@ Organizing your color palette into categories helps ensure visual consistency, s
 - 🔄 Add **Semantic + Secondary** if your UI has status feedback.
 - 🚫 Avoid too many colors — 6–8 well-defined tokens is ideal.
 - 🌗 Support **Light/Dark Mode** if accessibility or modern UX is needed.
+
+---
+
+## 🎨 Color Categories in Design Systems
+
+This table includes all important color categories used in modern UI/UX design systems, with real-world examples, usage, and essentiality.
+
+| ✅/❌ | Category              | Purpose / Usage                                         | Example Colors               | Example Use Case                                                                 |
+|------|------------------------|----------------------------------------------------------|-------------------------------|----------------------------------------------------------------------------------|
+| ✅   | **Primary**            | Brand identity, main CTAs                                | Blue `#2563eb`, Red `#dc2626` | Primary buttons, active links, highlight elements                               |
+| ✅   | **Secondary**          | Support primary color, alternate CTAs                    | Purple `#9333ea`, Teal `#14b8a6` | Secondary buttons, UI accents, navigation tabs                               |
+| ✅   | **Neutral**            | Text, backgrounds, layout                                | Grey `#f9fafb` – `#111827`    | Body text, layout BGs, dividers, placeholders                                  |
+| ✅   | **Success / Positive** | Confirmation or success states                           | Green `#22c55e`, Emerald `#10b981` | Toasts, completed status, form success                                       |
+| ✅   | **Error / Danger**     | Errors, invalid input, alerts                            | Red `#ef4444`, Rose `#f43f5e` | Validation errors, danger indicators                                           |
+| ✅   | **Warning / Alert**    | Caution or potential issues                              | Yellow `#facc15`, Amber `#f59e0b` | Alert banners, input warnings                                                |
+| ✅   | **Info / Help**        | Helpful tips, tooltips, or neutral messages              | Sky `#38bdf8`, Blue `#3b82f6` | Tooltips, help badges, notifications                                           |
+| ✅   | **Background**         | UI layer backgrounds                                     | White `#ffffff`, Gray `#f3f4f6` | App BGs, card BGs, layout structure                                            |
+| ❌   | **Accent / Decorative**| Adds personality; for visuals, not core UI               | Pink `#ec4899`, Cyan `#06b6d4` | Icons, avatars, infographics, charts                                           |
+| ❌   | **Surface / Elevation**| Used for container backgrounds, depth                    | Gray `#e5e7eb`, White `#ffffff` | Cards, modals, sheets, drawer panels                                           |
+| ❌   | **Link**               | Dedicated color for links                                | Blue `#3b82f6`, Indigo `#6366f1` | Inline links, navigation, hypertext                                            |
+| ❌   | **Disabled / Muted**   | Inactive, non-interactive, or unavailable UI             | Gray `#9ca3af`, `#d1d5db`     | Disabled buttons, placeholder texts                                            |
+| ❌   | **Overlay / Scrim**    | Dimmed background behind modal/popups                    | `rgba(0,0,0,0.5)`             | Modal overlays, drawers, lightbox screens                                      |
 
 ---
 
