@@ -1334,6 +1334,37 @@ Tokens help define reusable styles in design and code. Here's a standard set of 
 
 ---
 
+# 🧱 What Is a Design System?
+A design system is a set of standards, reusable components, and guidelines used for building consistent UI across products
+
+## 🧩 Design System Building Blocks
+
+Category	Description	Examples
+Foundations	Core styling tokens and rules	Colors, Typography, Spacing, Grid
+Components	UI building blocks	Button, Input, Modal, Dropdown
+Patterns	Reusable solutions for common problems	Form validation, Nav, Toast pattern
+Guidelines	Rules for usage and behavior	Accessibility, Writing, Layout rules
+Assets	Icons, logos, illustrations	SVG sets, brand assets
+Documentation	Guide for using components and design rules	Storybook, Figma file, Markdown
+
+---
+
+## 🧩 Design System Building Blocks
+
+A design system is made of several interconnected parts. Below are the core building blocks:
+
+| Block            | Description                                              | Examples                             |
+|------------------|----------------------------------------------------------|--------------------------------------|
+| **Foundations**   | Core tokens and rules that define visual language       | Color, Typography, Spacing, Grid     |
+| **Components**    | UI elements built using foundation tokens               | Button, Input, Modal, Card           |
+| **Patterns**      | Reusable interaction and layout strategies              | Form Validation, Navigation, Alerts  |
+| **Icons & Assets**| Brand visuals used across UI                            | Icons, Logos, Illustrations          |
+| **Guidelines**    | Rules on usage, accessibility, writing, and behaviors   | Do/Don't, Voice & Tone, UX Writing   |
+| **Themes**        | Mode-based or brand-based variations                    | Light, Dark, Multi-brand             |
+| **Documentation** | Where everything is explained for designers & devs      | Storybook, Figma, GitHub, Markdown   |
+
+---
+
 ## 🛠️ Today leran
 
 1. Design Color 
