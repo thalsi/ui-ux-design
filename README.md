@@ -1779,7 +1779,7 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 
 ---
 
-## 📏 Border / Stroke Foundation 
+## 7.📏 Border / Stroke Foundation 
 
 1. **Border Width Tokens**  
 2. **Border Use Cases**  
@@ -1815,3 +1815,193 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 --border-thick: 4px;
 ```
 ---
+## 🎨 8. Opacity Foundation – Core Essentials
+
+### Opacity Tokens
+
+| Token               | Value | Use Case                         |
+|---------------------|--------|----------------------------------|
+| `--opacity-disabled`| 0.4    | Disabled states (inputs, buttons)|
+| `--opacity-muted`   | 0.6    | Subtext, placeholders            |
+| `--opacity-default` | 1      | Fully visible elements           |
+
+### Full Token Set
+
+```css
+--opacity-disabled: 0.4;
+--opacity-muted: 0.6;
+--opacity-default: 1;
+```
+---
+## 🧱 9. Grid / Layout Foundation – Core Essentials
+
+### Grid System
+
+| Token               | Value     | Use Case                        |
+|---------------------|-----------|---------------------------------|
+| `--grid-columns`    | 12        | Standard column layout          |
+| `--grid-gutter`     | 24px      | Space between columns           |
+| `--grid-margin`     | 16px      | Outer container margin          |
+
+### Full Token Set
+
+```css
+--grid-columns: 12;
+--grid-gutter: 24px;
+--grid-margin: 16px;
+```
+---
+## 📐 10. Breakpoints Foundation – Core Essentials
+
+### Responsive Breakpoints
+
+| Token               | Value      | Device / Use Case               |
+|---------------------|------------|---------------------------------|
+| `--breakpoint-sm`   | 480px      | Mobile portrait                 |
+| `--breakpoint-md`   | 768px      | Tablets                         |
+| `--breakpoint-lg`   | 1024px     | Small laptops                   |
+| `--breakpoint-xl`   | 1280px     | Large screens                   |
+
+### Full Token Set
+
+```css
+--breakpoint-sm: 480px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 1024px;
+--breakpoint-xl: 1280px;
+```
+---
+## 🎞️ 11. Motion / Animation Foundation – Core Essentials
+
+### Timing & Easing
+
+| Token                   | Value           | Use Case                   |
+|-------------------------|------------------|-----------------------------|
+| `--motion-duration-fast`| 150ms           | Button tap, hover           |
+| `--motion-duration-mid` | 300ms           | Modals, slide transitions   |
+| `--motion-ease-in-out`  | ease-in-out     | Default easing              |
+
+### Full Token Set
+
+```css
+--motion-duration-fast: 150ms;
+--motion-duration-mid: 300ms;
+--motion-ease-in-out: ease-in-out;
+```
+---
+## 🔣 12. Iconography Foundation – Core Essentials
+
+### Icon Sizing & Style
+
+| Token               | Value | Use Case                |
+|---------------------|--------|-------------------------|
+| `--icon-size-sm`    | 16px   | Inline with text        |
+| `--icon-size-md`    | 24px   | Buttons, nav items      |
+| `--icon-size-lg`    | 32px   | Cards, modals           |
+
+### Icon Style Guidelines
+
+- Use outlined or rounded icons
+- Keep stroke widths consistent
+- Align icons to 24px baseline grid
+
+### Full Token Set
+
+```css
+--icon-size-sm: 16px;
+--icon-size-md: 24px;
+--icon-size-lg: 32px;
+```
+---
+## 🔠 13. Typography Scale Foundation – Core Essentials
+
+### Modular Scale System
+
+| Token                  | Ratio  | Description                       |
+|------------------------|--------|-----------------------------------|
+| `--font-scale-minor`   | 1.125  | Subtle scale (compact UIs)        |
+| `--font-scale-major`   | 1.25   | Balanced scale (most UIs)         |
+| `--font-scale-golden`  | 1.618  | Large visual rhythm (hero UI)     |
+
+### Full Token Set
+
+```css
+--font-scale-minor: 1.125;
+--font-scale-major: 1.25;
+--font-scale-golden: 1.618;
+```
+---
+## 🗂️ 14. Z-Index / Layering Foundation – Core Essentials
+
+### Z-Index Layers
+
+| Token               | Value | Use Case                |
+|---------------------|--------|-------------------------|
+| `--z-base`          | 1      | Default stack           |
+| `--z-dropdown`      | 100    | Menus, popovers         |
+| `--z-modal`         | 1000   | Dialogs, overlays       |
+| `--z-toast`         | 1100   | Notifications           |
+
+### Full Token Set
+
+```css
+--z-base: 1;
+--z-dropdown: 100;
+--z-modal: 1000;
+--z-toast: 1100;
+```
+---
+
+## 🗣️ 15. Tone / Voice Foundation – Core Essentials
+
+### Voice Traits
+
+| Trait       | Value           | Description                        |
+|-------------|------------------|------------------------------------|
+| Tone        | Friendly         | Helpful and clear                  |
+| Style       | Conversational   | Not robotic or overly casual       |
+| Consistency | Always           | Same tone across all components    |
+
+### Use Guidelines
+
+- Avoid jargon
+- Keep CTA short and action-driven (e.g., "Save", "Try Free")
+- Write like you speak (human-centered)
+- Match tone to the moment (e.g., errors vs success messages)
+
+---
+## ♿ 16. Accessibility (A11y) Foundation – Core Essentials
+
+### Core Rules
+
+| Area               | Rule                                    |
+|--------------------|------------------------------------------|
+| Contrast Ratio     | Minimum 4.5:1 for text                  |
+| Focus Indicators   | Always visible, use `:focus-visible`    |
+| ARIA Support       | Use labels, roles, landmarks properly   |
+
+### Tokens
+
+```css
+--a11y-focus-ring: 2px solid #005fcc;
+--a11y-contrast-min: 4.5;
+```
+
+## 🌐 17. Localization Foundation – Core Essentials
+
+### Language & Locale Support
+
+| Key Element       | Rule / Use Case                  |
+|-------------------|----------------------------------|
+| RTL Support       | Use `dir="rtl"` when needed      |
+| Date/Time Format  | Use ISO or localized libraries   |
+| Pluralization     | Handle via i18n logic            |
+
+### Guidelines
+
+- Avoid hardcoded text
+- Extract strings to `.json`, `.po`, or `.i18n.ts` files
+- Support dynamic font switching for local languages
+- Always test for text overflow and layout mirroring
+---
+
