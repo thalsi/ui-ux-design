@@ -1640,16 +1640,178 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 ```
 ---
 
-## 🛠️ Today leran
+## 4. 📏 Sizing Foundation – Core Essentials Index
 
-1. Design Color 
-- [x] Day-1
-- [x] Day-2
-- [x] Day-3
-- [x] Day-4
-- [x] Day-5
+1. **Sizing Scale (Base Sizes)**  
+2. **Component Sizing**  
+3. **Layout Sizing**  
+4. **Full Core Token Set**
 
-2. Design Typogrphy 
-- [x] Day-1
-- [x] Day-2
+---
 
+## 1. Sizing Scale (Base Sizes)
+
+| Token             | Value | Use Case                             |
+|-------------------|--------|--------------------------------------|
+| `--size-xs`       | 16px   | Icons, indicators, tight content     |
+| `--size-sm`       | 24px   | Small buttons, badges                |
+| `--size-md`       | 40px   | Input height, default button size    |
+| `--size-lg`       | 64px   | Large buttons, image previews        |
+| `--size-xl`       | 96px   | Avatars, hero icons                  |
+
+---
+
+## 2. Component Sizing
+
+| Component    | Token        | Value | Notes                    |
+|--------------|--------------|--------|---------------------------|
+| Button       | `--size-md`  | 40px   | Height                   |
+| Input Field  | `--size-md`  | 40px   | Default height           |
+| Avatar       | `--size-xl`  | 96px   | Profile/preview elements |
+
+---
+
+## 3. Layout Sizing
+
+| Token               | Value  | Use Case                   |
+|---------------------|--------|----------------------------|
+| `--container-sm`    | 480px  | Mobile layout max width    |
+| `--container-md`    | 768px  | Tablet layout max width    |
+| `--container-lg`    | 1024px | Desktop layout max width   |
+
+---
+
+## 4. Full Core Sizing Token Set
+
+```css
+--size-xs: 16px;
+--size-sm: 24px;
+--size-md: 40px;
+--size-lg: 64px;
+--size-xl: 96px;
+
+--container-sm: 480px;
+--container-md: 768px;
+--container-lg: 1024px;
+```
+---
+
+## 5. ☁️ Elevation / Shadow Foundation – Core Essentials Index
+
+1. **Shadow Scale**  
+2. **Shadow Use Cases**  
+3. **Full Shadow Token Set**
+
+---
+
+## 1. Shadow Scale
+
+| Token              | Offset & Blur           | Use Case                    |
+|--------------------|-------------------------|-----------------------------|
+| `--shadow-xs`      | 0 1px 2px rgba(0,0,0,0.05)| Hairline, borders           |
+| `--shadow-sm`      | 0 1px 4px rgba(0,0,0,0.08)| Inputs, buttons             |
+| `--shadow-md`      | 0 4px 8px rgba(0,0,0,0.10)| Cards, dropdowns            |
+| `--shadow-lg`      | 0 8px 16px rgba(0,0,0,0.12)| Modals, overlays            |
+
+---
+
+## 2. Shadow Use Cases
+
+| Element       | Token         | Notes                         |
+|---------------|---------------|-------------------------------|
+| Button hover  | `--shadow-sm` | Slight elevation              |
+| Card          | `--shadow-md` | Clear but soft shadow         |
+| Modal         | `--shadow-lg` | Full depth, highest elevation |
+
+---
+
+## 3. Full Shadow Token Set
+
+```css
+--shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+--shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.08);
+--shadow-md: 0 4px 8px rgba(0, 0, 0, 0.10);
+--shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.12);
+```
+---
+
+---
+
+## 6.🔘 Radius (Border Radius) Foundation 
+
+1. **Radius Scale**  
+2. **Component Examples**  
+3. **Full Radius Token Set**
+
+---
+
+## 1. Radius Scale
+
+| Token               | Value | Use Case                       |
+|---------------------|--------|--------------------------------|
+| `--radius-xs`       | 2px    | Tags, inputs, fine borders     |
+| `--radius-sm`       | 4px    | Buttons, cards                 |
+| `--radius-md`       | 8px    | Modals, elevated containers    |
+| `--radius-full`     | 9999px | Perfect circles (avatars)      |
+
+---
+
+## 2. Component Examples
+
+| Component | Token           | Notes                      |
+|-----------|------------------|----------------------------|
+| Input     | `--radius-sm`    | Clean, modern look         |
+| Card      | `--radius-md`    | Softened edge              |
+| Avatar    | `--radius-full`  | Circular profile pic       |
+
+---
+
+## 3. Full Radius Token Set
+
+```css
+--radius-xs: 2px;
+--radius-sm: 4px;
+--radius-md: 8px;
+--radius-full: 9999px;
+```
+---
+
+
+---
+
+## 📏 Border / Stroke Foundation 
+
+1. **Border Width Tokens**  
+2. **Border Use Cases**  
+3. **Full Border Token Set**
+
+---
+
+## 1. Border Width Tokens
+
+| Token                  | Value | Use Case                   |
+|------------------------|--------|----------------------------|
+| `--border-thin`        | 1px    | Input borders, outlines    |
+| `--border-regular`     | 2px    | Buttons, cards             |
+| `--border-thick`       | 4px    | Emphasis components        |
+
+---
+
+## 2. Border Use Cases
+
+| Element     | Token              | Notes                      |
+|-------------|--------------------|----------------------------|
+| Input       | `--border-thin`    | Minimal distraction        |
+| CTA Button  | `--border-regular` | Strong clickable UI        |
+| Divider     | `--border-thick`   | Section separator          |
+
+---
+
+## 3. Full Border Token Set
+
+```css
+--border-thin: 1px;
+--border-regular: 2px;
+--border-thick: 4px;
+```
+---
