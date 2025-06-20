@@ -1482,12 +1482,10 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 | `--font-weight-thin`     | 100    | Thin          | Decorative, large headings only   |
 | `--font-weight-extralight`| 200   | Extra Light   | Minimal UIs, large quiet headers  |
 | `--font-weight-light`    | 300    | Light         | Placeholder, subtle captions      |
-
 | `--font-weight-regular`  | 400    | Regular       | Default for body text             |
 | `--font-weight-medium`   | 500    | Medium        | Form labels, subtle CTA           |
 | `--font-weight-semibold` | 600    | Semibold      | Subheadings, selected states      |
 | `--font-weight-bold`     | 700    | Bold          | Primary headings, CTA buttons     |
-
 | `--font-weight-extrabold`| 800    | Extra Bold    | Landing pages, banner titles      |
 | `--font-weight-black`    | 900    | Black         | Strong emphasis, display use      |
 
