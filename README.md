@@ -1565,8 +1565,81 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 --font-style-normal: normal;
 --font-style-italic: italic;
 ```
+---
+
+## 3. 📐 Spacing Foundation – Core Essentials Index
+
+1. **Spacing Scale (Base Units)**  
+2. **Inset Spacing (Padding)**  
+3. **Stack Spacing (Vertical Gaps)**  
+4. **Inline Spacing (Horizontal Gaps)**  
+5. **Full Core Token Set**
 
 ---
+
+## 1. Spacing Scale (Base Units)
+
+| Token               | Value (px) | rem     | Use Case                            |
+|---------------------|------------|---------|-------------------------------------|
+| `--spacing-xs`      | 4px        | 0.25rem | Micro padding/margins, chips        |
+| `--spacing-sm`      | 8px        | 0.5rem  | Small UI elements, icons            |
+| `--spacing-md`      | 16px       | 1rem    | Default spacing for most components |
+| `--spacing-lg`      | 24px       | 1.5rem  | Grid gaps, layout margin            |
+| `--spacing-xl`      | 32px       | 2rem    | Section spacing, card groups        |
+
+---
+
+## 2. Inset Spacing (Padding)
+
+| Token         | Value | Use Case                          |
+|---------------|--------|-----------------------------------|
+| `--inset-sm`  | 8px    | Button padding, card content      |
+| `--inset-md`  | 16px   | Input fields, modals              |
+| `--inset-lg`  | 24px   | Layout containers, dialog bodies  |
+
+---
+
+## 3. Stack Spacing (Vertical Gaps)
+
+| Token         | Value | Use Case                         |
+|---------------|--------|----------------------------------|
+| `--stack-sm`  | 8px    | Between label and input          |
+| `--stack-md`  | 16px   | Between sections                 |
+| `--stack-lg`  | 24px   | Between cards, list items        |
+
+---
+
+## 4. Inline Spacing (Horizontal Gaps)
+
+| Token          | Value | Use Case                      |
+|----------------|--------|-------------------------------|
+| `--inline-sm`  | 8px    | Icon/text spacing             |
+| `--inline-md`  | 16px   | Gaps between buttons/cards    |
+
+---
+
+## 5. Full Core Spacing Token Set
+
+```css
+--spacing-xs: 4px;
+--spacing-sm: 8px;
+--spacing-md: 16px;
+--spacing-lg: 24px;
+--spacing-xl: 32px;
+
+--inset-sm: 8px;
+--inset-md: 16px;
+--inset-lg: 24px;
+
+--stack-sm: 8px;
+--stack-md: 16px;
+--stack-lg: 24px;
+
+--inline-sm: 8px;
+--inline-md: 16px;
+```
+---
+
 ## 🛠️ Today leran
 
 1. Design Color 
