@@ -1391,6 +1391,50 @@ A complete list of foundational elements used in modern design systems for consi
 
 ---
 
+# 1. 🎨 Design System Foundations – Color
+
+Color plays a critical role in brand identity, visual hierarchy, accessibility, and interaction feedback. This foundation defines a structured color system using design tokens to ensure consistency and scalability across platforms.
+
+---
+
+## 🧱 Color Categories
+
+| Category       | Description                             | Use Cases                                 |
+|----------------|-----------------------------------------|-------------------------------------------|
+| Primary        | Core brand color                        | Buttons, links, highlights                |
+| Secondary      | Supportive accent color                 | Cards, illustrations, secondary buttons   |
+| Neutral        | Greyscale tones                         | Backgrounds, borders, text                |
+| Background     | UI surfaces                             | Pages, containers, overlays               |
+| Text           | Foreground text                         | Headings, body, muted text                |
+| Semantic       | Status indication                       | Success, warning, error, info             |
+| Action States  | UI feedback                             | Hover, focus, pressed, disabled           |
+
+---
+
+## 🌗 Theme-Based Color Tokens
+
+### 🔅 Light Mode
+
+```css
+--color-primary: #E91E63;
+--color-primary-hover: #D81B60;
+--color-secondary: #F8BBD0;
+--color-background: #FFFFFF;
+--color-surface: #F9F9F9;
+--color-text-primary: #212121;
+--color-text-secondary: #616161;
+--color-border: #E0E0E0;
+
+--color-success: #4CAF50;
+--color-warning: #FFC107;
+--color-error: #F44336;
+--color-info: #2196F3;
+
+--color-disabled-bg: #F5F5F5;
+--color-disabled-text: #BDBDBD;
+--color-hover-overlay: rgba(0, 0, 0, 0.04);
+```
+
 ## 🛠️ Today leran
 
 1. Design Color 
