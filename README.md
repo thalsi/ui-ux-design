@@ -1365,6 +1365,32 @@ A design system is made of several interconnected parts. Below are the core buil
 
 ---
 
+## 🧱 Foundations of a Design System
+
+A complete list of foundational elements used in modern design systems for consistency, scalability, and accessibility.
+
+| No. | Foundation              | Description                                                                 | Examples / Tokens                                  | Use In                        |
+|-----|--------------------------|-----------------------------------------------------------------------------|----------------------------------------------------|-------------------------------|
+| 1   | Color                   | Core palette for UI elements, branding, and accessibility                   | Primary, Secondary, Neutral, Error, Success        | Backgrounds, Text, Buttons    |
+| 2   | Typography              | Font styles, sizes, weights, and line spacing                               | Font families, Sizes, Weights, Line height         | Headings, Body text           |
+| 3   | Spacing                 | Consistent space units for padding and margins                              | 4px, 8px, 16px, 24px… (Spacing scale)              | Layout, Card, Form fields     |
+| 4   | Sizing                  | Width/height rules for UI elements                                          | Button: 40px, Icon: 24px                           | Buttons, Inputs, Icons        |
+| 5   | Elevation / Shadow      | Depth levels to show hierarchy or layering                                  | Elevation levels (e.g., 1–5), Shadow tokens        | Cards, Modals, Overlays       |
+| 6   | Radius (Border Radius)  | Corner rounding values                                                      | 4px, 8px, 12px… (e.g., sm, md, lg)                 | Cards, Inputs, Buttons        |
+| 7   | Border / Stroke         | Thickness and styles of borders                                             | 1px, 2px; solid, dashed                            | Inputs, Dividers, Tables      |
+| 8   | Opacity                 | Transparency levels for different UI states                                 | 100%, 80%, 60%                                     | Disabled states, overlays     |
+| 9   | Grid / Layout           | Structure for placing and aligning elements                                 | 8pt Grid, 12-column layout, breakpoints            | Page layout, Containers       |
+| 10  | Breakpoints             | Responsive rules for different screen sizes                                 | sm (480px), md (768px), lg (1024px), xl (1440px)   | Responsive layout             |
+| 11  | Motion / Animation      | Timing and easing rules for interactions                                    | Ease-in, ease-out, 300ms, spring                   | Transitions, Interactions     |
+| 12  | Iconography             | Icon system with size, stroke, style                                        | 24px outlined, filled icons                        | Actions, Navigation           |
+| 13  | Typography Scale        | Hierarchical font size scale for headings and body                          | h1, h2, h3, body, caption                          | Consistent UI text            |
+| 14  | Z-Index / Layering      | Layer positioning for UI elements                                           | z-10, z-20, z-30…                                  | Modals, Dropdowns             |
+| 15  | Tone / Voice            | Guidelines for writing UI copy                                              | Friendly, clear, inclusive                         | Microcopy, Notifications      |
+| 16  | Accessibility (A11y)    | Rules ensuring usability for all users                                      | Color contrast, Focus states, Keyboard nav         | All components                |
+| 17  | Localization            | Support for different languages and directions                              | RTL/LTR, date format                               | Global product design         |
+
+---
+
 ## 🛠️ Today leran
 
 1. Design Color 
