@@ -1434,7 +1434,141 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 --color-disabled-text: #BDBDBD;
 --color-hover-overlay: rgba(0, 0, 0, 0.04);
 ```
+# 2. ✍️ Typography Foundation
+- Typography ensures visual hierarchy, readability, and brand consistency.
+  
+## 📚 Typography Foundation – Essentials Index
 
+1. **Font Family**  
+2. **Font Sizes (Type Scale)**  
+3. **Font Weight**  
+4. **Line Height**  
+5. **Letter Spacing**  
+6. **Text Transform**  
+7. **Font Style**  
+8. **Full Token Set**  
+9. **Font Scale Ratios (Optional)**
+
+---
+
+## 1. Font Family
+
+| Token                   | Value                           | Font Type     | Use Case              |
+|-------------------------|----------------------------------|---------------|------------------------|
+| `--font-family-base`    | `'General Sans', sans-serif`     | Sans-serif    | Body text, forms, UI   |
+| `--font-family-heading` | `'Archivo', sans-serif`          | Sans-serif    | Headings, titles       |
+| `--font-family-mono`    | `'Fira Code', monospace`         | Monospace     | Code, tables, numbers  |
+
+---
+
+## 2. Font Sizes (Type Scale)
+
+| Level        | Token                   | Desktop     | Mobile     | px → rem   | Use Case             |
+|--------------|--------------------------|-------------|------------|------------|-----------------------|
+| Display      | `--font-size-display`    | 64px        | 48px       | 4rem       | Hero titles           |
+| Heading 1    | `--font-size-h1`         | 48px        | 36px       | 3rem       | Page headings         |
+| Heading 2    | `--font-size-h2`         | 36px        | 28px       | 2.25rem    | Section titles        |
+| Heading 3    | `--font-size-h3`         | 28px        | 22px       | 1.75rem    | Subheadings           |
+| Body Large   | `--font-size-body-lg`    | 18px        | 16px       | 1.125rem   | Articles, blog text   |
+| Body Medium  | `--font-size-body-md`    | 16px        | 14px       | 1rem       | Paragraphs, forms     |
+| Caption      | `--font-size-caption`    | 12px        | 12px       | 0.75rem    | Notes, metadata       |
+
+---
+
+## 3. Font Weight
+
+| Token Name               | Value | Weight Name   | Use Case                          |
+|--------------------------|--------|---------------|-----------------------------------|
+| `--font-weight-thin`     | 100    | Thin          | Decorative, large headings only   |
+| `--font-weight-extralight`| 200   | Extra Light   | Minimal UIs, large quiet headers  |
+| `--font-weight-light`    | 300    | Light         | Placeholder, subtle captions      |
+
+| `--font-weight-regular`  | 400    | Regular       | Default for body text             |
+| `--font-weight-medium`   | 500    | Medium        | Form labels, subtle CTA           |
+| `--font-weight-semibold` | 600    | Semibold      | Subheadings, selected states      |
+| `--font-weight-bold`     | 700    | Bold          | Primary headings, CTA buttons     |
+
+| `--font-weight-extrabold`| 800    | Extra Bold    | Landing pages, banner titles      |
+| `--font-weight-black`    | 900    | Black         | Strong emphasis, display use      |
+
+---
+
+## 4. Line Height
+
+| Token                   | Value | Equivalent | Use Case                  |
+|-------------------------|--------|------------|---------------------------|
+| `--line-height-tight`   | 1.1    | ~110%      | Hero titles, banners      |
+| `--line-height-heading` | 1.2    | ~120%      | H1–H3 heading levels       |
+| `--line-height-body`    | 1.5    | ~150%      | Paragraph, long-form text |
+| `--line-height-caption` | 1.4    | ~140%      | Footnotes, small content  |
+
+---
+
+## 5. Letter Spacing
+
+| Token                     | Value     | Tracking   | Use Case                   |
+|---------------------------|-----------|------------|----------------------------|
+| `--letter-spacing-tight`  | -0.02em   | Tight      | Large headings, logos      |
+| `--letter-spacing-normal` | 0em       | Normal     | Paragraphs, UI text        |
+| `--letter-spacing-loose`  | 0.02em    | Wide       | All-caps, badges, buttons  |
+
+---
+
+## 6. Text Transform
+
+| Token                        | Value       | Output Style | Use Case              |
+|------------------------------|-------------|---------------|------------------------|
+| `--text-transform-uppercase` | `uppercase` | ALL CAPS      | Labels, buttons, tags  |
+| `--text-transform-none`      | `none`      | As typed      | Headings, paragraphs   |
+
+---
+
+## 7. Font Style
+
+| Token                   | Value    | Display     | Use Case             |
+|-------------------------|----------|-------------|-----------------------|
+| `--font-style-normal`   | `normal` | Straight    | Default everywhere    |
+| `--font-style-italic`   | `italic` | Slanted     | Quotes, emphasis      |
+
+---
+
+## 8. Full Token Set
+
+```css
+--font-family-base: 'General Sans', sans-serif;
+--font-family-heading: 'Archivo', sans-serif;
+--font-family-mono: 'Fira Code', monospace;
+
+--font-size-display: 64px;
+--font-size-h1: 48px;
+--font-size-h2: 36px;
+--font-size-h3: 28px;
+--font-size-body-lg: 18px;
+--font-size-body-md: 16px;
+--font-size-caption: 12px;
+
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+
+--line-height-tight: 1.1;
+--line-height-heading: 1.2;
+--line-height-body: 1.5;
+--line-height-caption: 1.4;
+
+--letter-spacing-tight: -0.02em;
+--letter-spacing-normal: 0em;
+--letter-spacing-loose: 0.02em;
+
+--text-transform-uppercase: uppercase;
+--text-transform-none: none;
+
+--font-style-normal: normal;
+--font-style-italic: italic;
+```
+
+---
 ## 🛠️ Today leran
 
 1. Design Color 
