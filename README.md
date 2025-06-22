@@ -2005,3 +2005,6 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 - Always test for text overflow and layout mirroring
 ---
 
+
+### practice
+- [x] color palette
