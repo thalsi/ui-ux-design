@@ -103,7 +103,136 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 
 # 2. ✍️ Typography Foundation
 - Typography ensures visual hierarchy, readability, and brand consistency.
-  
+
+## 🧾 Typography Roles
+
+## 📚 Index
+
+1. [Display / Hero Title](#1-display--hero-title)  
+2. [Page Title (H1)](#2-page-title-h1)  
+3. [Section Heading (H2–H3)](#3-section-heading-h2h3)  
+4. [Subheading](#4-subheading)  
+5. [Body Text (Base)](#5-body-text-base)  
+6. [Body Text Bold / Strong](#6-body-text-bold--strong)  
+7. [Body Small / Secondary](#7-body-small--secondary)  
+8. [Link / Interactive Text](#8-link--interactive-text)  
+9. [Label (Form / UI)](#9-label-form--ui)  
+10. [Helper Text / Hint](#10-helper-text--hint)  
+11. [Caption / Metadata](#11-caption--metadata)  
+12. [Tag / Chip / Badge](#12-tag--chip--badge)
+
+---
+
+### 1. Display / Hero Title
+- **Use:** Largest text for landing pages, splash screens, or call-to-actions.
+- **Font Size:** `font-4xl` (48px desktop / 36px mobile)
+- **Font Weight:** `font-extrabold` (800)
+- **Line Height:** `tight` (1.2)
+- **Example:** “Design That Inspires”
+
+---
+
+### 2. Page Title (H1)
+- **Use:** Main title for a screen or page.
+- **Font Size:** `font-3xl` (40px / 28px)
+- **Font Weight:** `font-bold` (700)
+- **Line Height:** `tight` or `base`
+- **Example:** “Typography Guidelines”
+
+---
+
+### 3. Section Heading (H2–H3)
+- **Use:** Section headers to break up content.
+- **Font Size:** `font-2xl` (32px / 24px) or `font-xl` (24px / 20px)
+- **Font Weight:** `font-bold` or `font-semibold`
+- **Line Height:** `base`
+- **Example:** “Font Sizes”, “Line Height Settings”
+
+---
+
+### 4. Subheading
+- **Use:** Subtitle under a heading or grouping content.
+- **Font Size:** `font-lg` or `font-xl` (20–24px)
+- **Font Weight:** `font-semibold` (600)
+- **Line Height:** `base`
+- **Example:** “Used in Cards or Info Blocks”
+
+---
+
+### 5. Body Text (Base)
+- **Use:** Paragraphs, descriptive content.
+- **Font Size:** `font-md` (18px / 16px)
+- **Font Weight:** `font-regular` (400)
+- **Line Height:** `base` (1.5)
+- **Example:** Normal UI explanations or feature descriptions.
+
+---
+
+### 6. Body Text Bold / Strong
+- **Use:** Emphasized phrases inside body.
+- **Font Size:** `font-md`
+- **Font Weight:** `font-semibold` or `font-bold` (600–700)
+- **Line Height:** `base`
+- **Example:** “Important notes or warnings.”
+
+---
+
+### 7. Body Small / Secondary
+- **Use:** Descriptive text, card subtitles, muted UI text.
+- **Font Size:** `font-sm` or `font-xs` (14–16px)
+- **Font Weight:** `font-regular` (400)
+- **Line Height:** `base` or `loose`
+- **Example:** “Used in pricing cards or small footers.”
+
+---
+
+### 8. Link / Interactive Text
+- **Use:** Text links, buttons, or clickable elements.
+- **Font Size:** `font-md` or `font-sm`
+- **Font Weight:** `font-regular` or `font-medium`
+- **Color:** Primary theme color
+- **Style:** Underline or color change on hover
+- **Example:** “Learn more →”
+
+---
+
+### 9. Label (Form / UI)
+- **Use:** Field labels, button labels, small titles.
+- **Font Size:** `font-xs` or `font-sm`
+- **Font Weight:** `font-medium` (500)
+- **Letter Spacing:** `wide` (+0.5px)
+- **Text Case:** Often UPPERCASE
+- **Example:** “Email Address”, “Submit”
+
+---
+
+### 10. Helper Text / Hint
+- **Use:** Below form fields, tooltips, soft instructions.
+- **Font Size:** `font-xs` or `font-xxs` (12–14px)
+- **Font Weight:** `font-regular`
+- **Color:** Gray / muted
+- **Example:** “We’ll never share your email.”
+
+---
+
+### 11. Caption / Metadata
+- **Use:** Timestamps, authorship, subtitles.
+- **Font Size:** `font-xs`
+- **Font Weight:** `font-regular`
+- **Color:** Light gray or secondary tone
+- **Example:** “Updated July 7, 2025”
+
+---
+
+### 12. Tag / Chip / Badge
+- **Use:** Status indicators, categories.
+- **Font Size:** `font-xxs` or `font-xs` (10–12px)
+- **Font Weight:** `font-medium` or `font-regular`
+- **Background:** Colored (e.g. status-based)
+- **Example:** “NEW”, “DRAFT”, “SUCCESS”
+
+---
+
 ## 📚 Typography Foundation – Essentials Index
 
 1. **Font Family**  
