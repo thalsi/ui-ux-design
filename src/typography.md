@@ -1,3 +1,61 @@
+# 🔤 Typography Roles – Design System Guide
+
+Supports **Web & Mobile UI** with scalable tokens and style roles.
+
+---
+
+## 🔰 Beginner Typography Roles (8 Roles)
+
+| # | Role             | Token             | Web Size | Mobile Size | Weight       | Line Height | Letter Spacing | Color Token      | ✅ Usage Example                        |
+|---|------------------|-------------------|----------|-------------|--------------|-------------|----------------|------------------|----------------------------------------|
+| 1 | Hero Title       | `font-display`    | 64px     | 40px        | ExtraBold    | 120%        | -0.5px         | `text-primary`   | Hero banners, splash screen titles     |
+| 2 | Page Title       | `font-page-title` | 32px     | 24px        | Bold         | 120%        | -0.25px        | `text-primary`   | “Dashboard”, “Profile”                 |
+| 3 | Section Title    | `font-section-title`| 24px   | 20px        | SemiBold     | 130%        | -0.15px        | `text-primary`   | Section blocks, page modules           |
+| 4 | Subtitle         | `font-subtitle`   | 18px     | 16px        | Regular      | 140%        | 0px            | `text-secondary` | Sub-headings, block descriptions       |
+| 5 | Body Text        | `font-body`       | 16px     | 16px        | Regular      | 150%        | 0px            | `text-body`      | Paragraphs, content blocks             |
+| 6 | Small Text       | `font-body-sm`    | 14px     | 14px        | Regular      | 150%        | 0px            | `text-tertiary`  | Notes, light details                   |
+| 7 | Button Text      | `font-button`     | 14–16px  | 14–16px     | Bold         | 120%        | 0.5px          | `text-on-primary`| Action buttons: “Save”, “Login”        |
+| 8 | Caption / Label  | `font-caption`    | 12px     | 12px        | Regular      | 130%        | 0.25px         | `text-muted`     | Tooltips, input labels, field notes    |
+
+---
+
+## 💼 Professional Typography Roles (15 Roles)
+
+| #  | Role              | Token               | Web Size | Mobile Size | Weight       | Line Height | Letter Spacing | Color Token      | ✅ Usage Example                      |
+|----|-------------------|---------------------|----------|-------------|--------------|-------------|----------------|------------------|---------------------------------------|
+| 1  | Display Title     | `font-display`      | 64px     | 40px        | ExtraBold    | 110%        | -0.5px         | `text-primary`   | Hero section, splash screen headline |
+| 2  | H1 Page Title     | `font-h1`           | 48px     | 32px        | Bold         | 120%        | -0.25px        | `text-primary`   | Main page title                      |
+| 3  | H2 Section Title  | `font-h2`           | 36px     | 28px        | SemiBold     | 125%        | -0.15px        | `text-primary`   | Big sections                         |
+| 4  | H3 Subsection     | `font-h3`           | 28px     | 24px        | Medium       | 130%        | -0.1px         | `text-primary`   | Subsections inside cards             |
+| 5  | H4 Card Title     | `font-h4`           | 20px     | 18px        | Medium       | 140%        | 0px            | `text-primary`   | Card headers, widget titles          |
+| 6  | Subtitle          | `font-subtitle`     | 18px     | 16px        | Regular      | 140%        | 0px            | `text-secondary` | Description under headings           |
+| 7  | Body Text         | `font-body`         | 16px     | 16px        | Regular      | 150%        | 0px            | `text-body`      | Main paragraph content               |
+| 8  | Body Bold         | `font-body-bold`    | 16px     | 16px        | Bold         | 150%        | 0px            | `text-body`      | Emphasis in body text                |
+| 9  | Body Small        | `font-body-sm`      | 14px     | 14px        | Regular      | 150%        | 0px            | `text-tertiary`  | Meta text, notes                     |
+| 10 | Body Small Bold   | `font-body-sm-bold` | 14px     | 14px        | Bold         | 150%        | 0px            | `text-tertiary`  | Bold in small text                   |
+| 11 | Caption           | `font-caption`      | 12px     | 12px        | Regular      | 130%        | 0.25px         | `text-muted`     | Tiny hints, tooltips                 |
+| 12 | Button Text       | `font-button`       | 14–16px  | 14–16px     | Bold         | 120%        | 0.5px          | `text-on-primary`| Button labels                        |
+| 13 | Link Text         | `font-link`         | 14–16px  | 14–16px     | Medium       | 140%        | 0px            | `text-link`      | Inline links, nav items              |
+| 14 | Input Label       | `font-label`        | 14px     | 14px        | Medium       | 130%        | 0px            | `text-secondary` | Form field labels                    |
+| 15 | Tag / Chip / Hint | `font-tag`          | 12px     | 12px        | Medium       | 130%        | 0.25px         | `text-muted`     | Filters, statuses, badges            |
+
+---
+
+## 🎨 Recommended Color Tokens
+
+| Token Name         | Purpose                        | Example Color |
+|--------------------|---------------------------------|----------------|
+| `text-primary`     | Titles, major headings          | `#1A1A1A`      |
+| `text-secondary`   | Subtitles, labels               | `#444444`      |
+| `text-body`        | Paragraphs                      | `#333333`      |
+| `text-tertiary`    | Small content, hints            | `#666666`      |
+| `text-muted`       | Disabled, light captions        | `#999999`      |
+| `text-link`        | Hyperlinks                      | `#007BFF`      |
+| `text-on-primary`  | Text inside buttons             | `#FFFFFF`      |
+
+---
+
+
 ## 1. 🔤 Typography Scale
 
 | Element       | Web                  | Mobile                | Notes                                |
