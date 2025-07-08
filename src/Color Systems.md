@@ -160,3 +160,154 @@ A modern, accessible, and scalable color system designed for responsive UI/UX ac
 > 🧠 **Tip**: Limit to 5–7 core colors and build shades/tints from those.
 
 ---
+
+
+
+
+# 🎨 Responsive Color System Guide (Web & Mobile)
+
+This guide summarizes **popular UI color palettes** used in modern design systems. It helps maintain consistent, accessible, and brand-friendly color usage in **web and mobile design** (Figma, Tailwind, CSS).
+
+---
+
+## ✅ 1. Minimal UI Color Palette
+
+**Best For:** Clean, startup-style UIs (light mode)
+
+| Role         | Color Example | Hex Code    | Use Case         |
+|--------------|---------------|-------------|------------------|
+| Primary      | ![#3B82F6](https://via.placeholder.com/15/3B82F6/000000?text=+) | `#3B82F6` | Buttons, links     |
+| Secondary    | ![#64748B](https://via.placeholder.com/15/64748B/000000?text=+) | `#64748B` | Sub buttons, tags  |
+| Background   | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) | `#FFFFFF` | Page background    |
+| Surface      | ![#F8FAFC](https://via.placeholder.com/15/F8FAFC/000000?text=+) | `#F8FAFC` | Cards, input areas |
+| Text Primary | ![#111827](https://via.placeholder.com/15/111827/000000?text=+) | `#111827` | Headlines           |
+| Text Muted   | ![#6B7280](https://via.placeholder.com/15/6B7280/000000?text=+) | `#6B7280` | Placeholder text   |
+| Error        | ![#EF4444](https://via.placeholder.com/15/EF4444/000000?text=+) | `#EF4444` | Validation error   |
+
+---
+
+## 🧱 2. Material Design 3 (Google)
+
+**Best For:** Android apps, PWA
+
+| Role           | Hex Code   | Use Case     |
+|----------------|------------|--------------|
+| Primary        | `#6750A4`  | Core brand   |
+| On Primary     | `#FFFFFF`  | Text on primary |
+| Surface        | `#FFFBFE`  | Background   |
+| On Surface     | `#1C1B1F`  | Text         |
+| Secondary      | `#625B71`  | Chips, tags  |
+| Tertiary       | `#7D5260`  | Accents      |
+| Error          | `#B3261E`  | Alerts       |
+
+[Material 3 Color Tool](https://m3.material.io/theme-builder)
+
+---
+
+## 🍎 3. Apple Human Interface (HIG)
+
+**Best For:** iOS/macOS
+
+| Role          | Apple Color       | Use Case          |
+|---------------|-------------------|-------------------|
+| System Blue   | `#007AFF`         | Buttons, links    |
+| System Gray   | `#8E8E93`         | Disabled/Muted    |
+| System Red    | `#FF3B30`         | Errors, delete    |
+| System Green  | `#34C759`         | Success, confirm  |
+| System Orange | `#FF9500`         | Warnings, notices |
+
+System colors adapt to dark/light mode automatically in SwiftUI.
+
+---
+
+## 🎯 4. Tailwind CSS Color System
+
+**Best For:** Web development, utility-first design
+
+| Shade     | Blue         | Gray         | Red          |
+|-----------|--------------|--------------|--------------|
+| 50        | `#EFF6FF`    | `#F9FAFB`    | `#FEF2F2`    |
+| 100       | `#DBEAFE`    | `#F3F4F6`    | `#FECACA`    |
+| 500       | `#3B82F6`    | `#6B7280`    | `#EF4444`    |
+| 900       | `#1E3A8A`    | `#111827`    | `#7F1D1D`    |
+
+Tailwind supports dark mode with `dark:` variants.
+
+---
+
+## 🚀 5. Atlassian Palette
+
+**Best For:** Jira, Confluence apps
+
+| Role       | Hex Code   | Use Case     |
+|------------|------------|--------------|
+| Blue 500   | `#0052CC`  | Primary      |
+| Red 400    | `#DE350B`  | Error        |
+| Green 400  | `#36B37E`  | Success      |
+| Yellow 400 | `#FFAB00`  | Warning      |
+| Dark Text  | `#172B4D`  | Headings     |
+
+---
+
+## 🏢 6. IBM Carbon Colors
+
+**Best For:** Enterprise apps
+
+| Gray Scale     | Value     | Use Case         |
+|----------------|-----------|------------------|
+| Gray 100       | `#F4F4F4` | Background-light |
+| Gray 900       | `#161616` | Text-dark        |
+| Interactive 01 | `#0F62FE` | Primary button   |
+| Support Error  | `#DA1E28` | Error message    |
+
+---
+
+## 🛒 7. Shopify Polaris Colors
+
+**Best For:** eCommerce dashboards
+
+| Role         | Hex Code   | Use Case        |
+|--------------|------------|-----------------|
+| Indigo       | `#5C6AC4`  | Primary         |
+| Green        | `#50B83C`  | Positive alerts |
+| Yellow       | `#EEC200`  | Warnings        |
+| Red          | `#DE3618`  | Errors          |
+| Text         | `#212B36`  | Main text       |
+
+---
+
+## ☁️ 8. Salesforce SLDS
+
+**Best For:** Dense enterprise UI
+
+| Role            | Hex Code   | Use Case         |
+|-----------------|------------|------------------|
+| Brand Blue      | `#1589EE`  | Buttons, headers |
+| Neutral Gray    | `#747474`  | Labels           |
+| Error Red       | `#C23934`  | Validation       |
+| Success Green   | `#2E844A`  | Positive status  |
+
+---
+
+## 🌗 Dark Mode & Contrast Tips
+
+- Always test colors using [WCAG Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- Use transparent overlays (`rgba()`) to soften tones in dark UI
+- Tailwind `dark:` and Material tokens support light/dark auto-switching
+
+---
+
+## 📊 Summary Table
+
+| System     | Best For                | Dark Mode Support | Notes                  |
+|------------|-------------------------|-------------------|------------------------|
+| Minimal UI | Modern startups         | Optional          | Simple + flexible      |
+| Material   | Android apps            | ✅                 | Dynamic color system   |
+| Apple HIG  | iOS/macOS               | ✅ (Auto)          | Uses system colors     |
+| Tailwind   | Utility-first web dev   | ✅                 | Pre-built palette      |
+| Atlassian  | B2B platforms           | ❌                 | Brand-focused          |
+| IBM Carbon | Enterprise design       | ✅                 | Standardized tokens    |
+| Polaris    | Shopify dashboards      | ✅                 | eCommerce ready        |
+| SLDS       | Salesforce tools        | ✅                 | Large-scale systems    |
+
+---
