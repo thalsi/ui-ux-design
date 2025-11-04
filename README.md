@@ -800,16 +800,19 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 ---
 
 
-| **Text Style**           | **Mobile (px)** | **Desktop (px)** | **Font Weight** | **Line Height** | **Letter Spacing** | **Use Case**                      |
-| ------------------------ | --------------- | ---------------- | --------------- | --------------- | ------------------ | --------------------------------- |
-| **H1 / Page Title**      | 32px            | 40–48px          | 700             | 120%            | -0.02em            | Main page heading, hero title     |
-| **H2 / Section Title**   | 24px            | 32px             | 600             | 125%            | -0.01em            | Section breaks or main headings   |
-| **H3 / Sub-section**     | 20px            | 24px             | 600             | 130%            | 0em                | Sub-sections under H2             |
-| **H4 / Card Title**      | 18px            | 20px             | 500             | 135%            | 0em                | Card titles, smaller widgets      |
-| **Body Large**           | 18px            | 20px             | 400             | 160%            | 0.01em             | Lead paragraphs, intro text       |
-| **Body / Paragraph**     | 16px            | 18px             | 400             | 165%            | 0.01em             | Primary readable paragraph text   |
-| **Body Small / Caption** | 14px            | 16px             | 400             | 150%            | 0.02em             | Supporting text, captions, labels |
-| **Small / Meta**         | 12px            | 14px             | 400             | 150%            | 0.03em             | Dates, copyright, meta info       |
+
+-------------
+
+| **Text Style**           | **Mobile (px)** | **Desktop (px)** | **Font Weight** | **Line Height (%)** | **Letter Spacing (%)** | **Use Case**                      |
+| ------------------------ | --------------- | ---------------- | --------------- | ------------------- | ---------------------- | --------------------------------- |
+| **H1 / Page Title**      | 32px            | 40–48px          | 700             | 120%                | -2%                    | Main page heading, hero title     |
+| **H2 / Section Title**   | 24px            | 32px             | 600             | 125%                | -1%                    | Major section breaks              |
+| **H3 / Sub-section**     | 20px            | 24px             | 600             | 130%                | 0%                     | Sub-sections under H2             |
+| **H4 / Card Title**      | 18px            | 20px             | 500             | 135%                | 0%                     | Card headlines, smaller titles    |
+| **Body Large**           | 18px            | 20px             | 400             | 160%                | +1%                    | Lead paragraphs, intro text       |
+| **Body / Paragraph**     | 16px            | 18px             | 400             | 165%                | +1%                    | Main body text                    |
+| **Body Small / Caption** | 14px            | 16px             | 400             | 150%                | +2%                    | Supporting text, captions, labels |
+| **Small / Meta**         | 12px            | 14px             | 400             | 150%                | +3%                    | Dates, meta info, copyright       |
 
 ---
 Mobile Typography Scale
