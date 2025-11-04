@@ -798,3 +798,42 @@ Color plays a critical role in brand identity, visual hierarchy, accessibility, 
 | Pluralization     | Handle via i18n logic            |
 
 ---
+
+
+| **Text Style**           | **Mobile (px)** | **Desktop (px)** | **Font Weight** | **Line Height** | **Letter Spacing** | **Use Case**                      |
+| ------------------------ | --------------- | ---------------- | --------------- | --------------- | ------------------ | --------------------------------- |
+| **H1 / Page Title**      | 32px            | 40–48px          | 700             | 120%            | -0.02em            | Main page heading, hero title     |
+| **H2 / Section Title**   | 24px            | 32px             | 600             | 125%            | -0.01em            | Section breaks or main headings   |
+| **H3 / Sub-section**     | 20px            | 24px             | 600             | 130%            | 0em                | Sub-sections under H2             |
+| **H4 / Card Title**      | 18px            | 20px             | 500             | 135%            | 0em                | Card titles, smaller widgets      |
+| **Body Large**           | 18px            | 20px             | 400             | 160%            | 0.01em             | Lead paragraphs, intro text       |
+| **Body / Paragraph**     | 16px            | 18px             | 400             | 165%            | 0.01em             | Primary readable paragraph text   |
+| **Body Small / Caption** | 14px            | 16px             | 400             | 150%            | 0.02em             | Supporting text, captions, labels |
+| **Small / Meta**         | 12px            | 14px             | 400             | 150%            | 0.03em             | Dates, copyright, meta info       |
+
+---
+Mobile Typography Scale
+
+| Element          | Font Size | Line Height | Font Weight | Letter Spacing | Notes               |
+| ---------------- | --------- | ----------- | ----------- | -------------- | ------------------- |
+| **H1**           | 32px      | 130%        | 700         | -0.01em        | Readable hero       |
+| **H2**           | 26px      | 130%        | 600         | 0em            | Section heading     |
+| **H3**           | 22px      | 135%        | 600         | 0em            | Subsection heading  |
+| **H4**           | 18px      | 145%        | 500         | 0.01em         | Minor heading       |
+| **Body (P)**     | 16px      | 165%        | 400         | 0.01em         | Comfortable reading |
+| **Small / Meta** | 13px      | 155%        | 400         | 0.02em         | Labels, footnotes   |
+| **Button / CTA** | 15px      | 145%        | 600         | 0.05em         | Tap clarity         |
+---
+🖥️ Desktop Typography Scale
+
+| Element          | Font Size | Line Height | Font Weight | Letter Spacing     | Notes                     |
+| ---------------- | --------- | ----------- | ----------- | ------------------ | ------------------------- |
+| **H1**           | 48px      | 120%        | 700         | -0.02em            | Main title / hero heading |
+| **H2**           | 36px      | 125%        | 600         | -0.01em            | Section heading           |
+| **H3**           | 28px      | 130%        | 600         | 0em                | Subsection heading        |
+| **H4**           | 22px      | 135%        | 500         | 0em                | Minor heading             |
+| **Body (P)**     | 18px      | 160%        | 400         | 0.01em             | Main paragraph text       |
+| **Small / Meta** | 14px      | 150%        | 400         | 0.02em             | Captions, labels          |
+| **Button / CTA** | 16px      | 140%        | 600         | 0.05em (uppercase) | Improve tap clarity       |
+
+---
